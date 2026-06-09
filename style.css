@@ -1,0 +1,57 @@
+body{
+    background-image: url(image/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 255, 255, 0.641);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#form{
+    background-image: url(image/logo.2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(245, 245, 245); 
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.518);
+    
+}
+
+#form label{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-weight: bold;
+
+    
+}
+
+#form input{
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+button{
+    margin-top: 30px;
+    background-color: rgb(5, 240, 161);
+    color:rgb(7, 23, 38);
+    font-size: 1.3em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor:  pointers;
+    margin: 15px;
+}
+button:hover{
+    background-color: rgba(5, 240, 138, 0.486);
+}
